@@ -211,12 +211,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dd70d1245be5bc84e9422421a1ba0539, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GameManager
-  selectedZombie: {fileID: 0}
+  selectedZombie: {fileID: 2024602154}
   zombies:
   - {fileID: 2024602154}
   - {fileID: 1801934694}
   - {fileID: 961055989}
   - {fileID: 1061104575}
+  selectedScale: {x: 2, y: 2, z: 2}
+  pushForce: {x: 0, y: 2, z: 3}
 --- !u!4 &210687031
 Transform:
   m_ObjectHideFlags: 0
@@ -319,7 +321,7 @@ Transform:
   m_GameObject: {fileID: 288236831}
   serializedVersion: 2
   m_LocalRotation: {x: -0.17594193, y: 0.039854057, z: -0.007128219, w: -0.9835677}
-  m_LocalPosition: {x: 0.067430854, y: 10.6696415, z: -24.24107}
+  m_LocalPosition: {x: 0, y: 9.4, z: -23.2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -387,19 +389,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4000010224391686, guid: e74b56ca326704bd19eabbb585d06ba2, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.08025098
+      value: 0.018970728
       objectReference: {fileID: 0}
     - target: {fileID: 4000010224391686, guid: e74b56ca326704bd19eabbb585d06ba2, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.20276046
+      value: -0.12047669
       objectReference: {fileID: 0}
     - target: {fileID: 4000010224391686, guid: e74b56ca326704bd19eabbb585d06ba2, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.9875456
+      value: 0.99599147
       objectReference: {fileID: 0}
     - target: {fileID: 4000010224391686, guid: e74b56ca326704bd19eabbb585d06ba2, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.15733323
+      value: -0.08944834
       objectReference: {fileID: 0}
     - target: {fileID: 4000010224391686, guid: e74b56ca326704bd19eabbb585d06ba2, type: 3}
       propertyPath: m_LocalRotation.y
@@ -411,7 +413,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4000010224391686, guid: e74b56ca326704bd19eabbb585d06ba2, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: -18.104
+      value: -10.264
       objectReference: {fileID: 0}
     - target: {fileID: 4000010224391686, guid: e74b56ca326704bd19eabbb585d06ba2, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
